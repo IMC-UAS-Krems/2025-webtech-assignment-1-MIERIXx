@@ -1,0 +1,235 @@
+body, header{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: #172236; */
+    /* background: linear-gradient(to bottom, #172236 40%, white 60%); */
+    background: linear-gradient(to bottom, #172236 0%, #172236 50%, white 50%, white 100%);
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, #172236 0%, #172236 50%, white 50%, white 100%);
+    background-repeat: no-repeat;
+    background-size: cover; /* растягивает градиент */
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 2em 5vw;        
+    background-color: #f8f8f8;
+    background: transparent;
+    backdrop-filter: blur(7px); /*https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
+    box-shadow: 0 0.1em 20px #0f1624;
+    z-index: 100;  
+}
+
+main{
+    margin-top: 7em;
+    color: #f8f8f8;
+    
+}
+
+#photos{
+    position: relative;
+}
+
+#myphoto{
+    position: absolute;
+    width: 37vw;
+    left: 55vw;
+    top: 3vw;
+    z-index: 2;
+}
+
+#arrow2{
+    width: 10%;
+    height: auto;
+    margin-left: 5vw;
+    margin-top: 0.5vw;
+}
+
+#arrow3{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 28.5vw;
+    top: 31vw;
+    transform: rotate(-190deg);
+}
+
+#arrow4{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 85vw;
+    top: 5vw;
+    transform: rotate(90deg);
+}
+
+#arrow5{
+    position: absolute;
+    width: 30vw;
+    height: 10vw;
+    transform: rotate(270deg);
+    margin-top: 46.35vw;
+    margin-left: -10vw;
+}
+
+#lines{
+    position: absolute;
+    margin-top: 9.375em;
+    margin-left: 18.75em;
+    width: 68.75em;
+    height: 18.75em;
+    z-index: 1;
+}
+
+/* #Lines2{
+    width: 100%;
+    height: 100%;
+}
+
+#Lines3{
+    width: 100%;
+    height: 100%;
+}
+
+#Lines4{
+    width: 100%;
+} */
+
+#background{
+    width: 100%;
+    margin-top: 30vw;
+}
+
+#welcome-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 6vw;
+    font-family: "ClearSansT";
+    font-weight: lighter;
+    font-size: 5vw;
+    z-index: 3;
+}
+
+/* https://www.geeksforgeeks.org/css/css-font-border/ */
+
+#Yaroslav, #Krems{
+    font-family: "ClearSansB";
+}
+
+#text2{
+    font-size: 2vw;
+    margin-top: -6vw;
+}
+
+#head1 {
+    font-size: 1.35em;
+    letter-spacing: -0.05em;
+    font-family: "ClearSansB";
+    font-weight: bold;
+    margin: 0;                 
+}
+
+#head2 {
+    display: flex;
+    gap: 3em;
+    font-size: 1em;
+    margin-right: 10em;
+    font-family: "ClearSansB";
+}
+
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+section{
+    background: linear-gradient(to bottom, #172236 40% white 60%);
+}
+
+
+#title{
+    position: absolute;
+    font-size: 4em;
+    font-family: "ClearSansB";
+    color: #172236;
+    margin-left: 10vw;
+    margin-top: -15vw;
+}
+
+#posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15vw auto 15vw auto;
+    color: #172236;
+    font-family: "ClearSansR";
+    font-size: 1.5em;
+}
+
+/* #TREX{
+    position: absolute;
+    bottom: 37px;
+    left: 50px; 
+    z-index: 4;
+    width: 7%;
+    height: auto;
+} */
+
+#pumpkin{
+    width: 10%;
+    height: auto;
+    position: relative;
+    left: 90%;
+}
+
+
+
+footer{
+    background-color: white;
+    color: #172236;
+    font-family: "ClearSansB";
+    font-size: 1.2em;
+    text-align: center;
+    border-top: grey solid 5px;
+    position: relative;
+    z-index: 3;
+    padding: 1em 0;
+}
+
+/* ClearSansBold */
+/* https://moguta.ru/blog/delaem-internet-magazin-vmeste/kak-podklyuchit-shrift-na-sajt-v-css */
+@font-face {
+    font-family:"ClearSansB" ;
+    src: url(../Fonts/ClearSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ClearSansR";
+    src: url(../Fonts/ClearSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ClearSansM";
+    src: url(../Fonts/ClearSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "ClearSansT";
+    src: url(../Fonts/ClearSans-Thin.ttf);
+}

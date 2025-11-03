@@ -1,0 +1,188 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #172236;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 2em 5vw;        
+    background-color: #172236;
+    background: transparent;
+    backdrop-filter: blur(7px); /*https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
+    box-shadow: 0 0.1em 20px #0f1624;
+    z-index: 100;  
+}
+
+#head1 {
+    font-size: 1.35em;
+    letter-spacing: -0.05em;
+    font-family: "ClearSansB";
+    font-weight: bold;
+    margin: 0;                 
+}
+
+#head2 {
+    display: flex;
+    gap: 3em;
+    font-size: 1em;
+    margin-right: 10em;
+    font-family: "ClearSansB";
+}
+
+#CV{
+    padding-top: 8%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#me{
+    color: #f8f8f8;
+    font-size: 64px;
+    font-family: "ClearSansB";
+
+}
+
+#about{
+    position: absolute;
+    color: rgb(207, 206, 206);
+    font-size: 24px;
+    font-family: "ClearSansT";
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 50%;
+    margin-right: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#myphoto{
+    border: #f8f8f8 10px solid;
+}
+
+#title1{
+    font-size: 32px;
+    font-family: "ClearSansB";
+    letter-spacing: 8px;
+    color: #f8f8f8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#title2{
+    font-size: 32px;
+    font-family: "ClearSansB";
+    letter-spacing: 8px;
+    color: #f8f8f8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#title3{
+    margin-bottom: 100px;
+}
+
+#education{
+    margin-top: 100px;
+    max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(207, 206, 206);
+    font-size: 24px;
+    font-family: "ClearSansT";
+}
+
+#title3{
+    font-size: 32px;
+    font-family: "ClearSansB";
+    letter-spacing: 8px;
+    color: #f8f8f8;
+}
+
+#skills{
+    max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(207, 206, 206);
+    font-size: 24px;
+    font-family: "ClearSansT";
+    padding-bottom: 400px;
+}
+
+#title4{
+    margin-top: 150px;
+    font-size: 32px;
+    font-family: "ClearSansB";
+    letter-spacing: 8px;
+    color: #f8f8f8;
+}
+
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+footer{
+    background-color: #f8f8f8;
+    color: #172236;
+    font-family: "ClearSansB";
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding: 1em 0;
+    border-top: grey solid 5px;
+}
+
+@font-face{ 
+    font-family:"ClearSansB" ; 
+    src: url(../Fonts/ClearSans-Bold.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansR"; 
+    src: url(../Fonts/ClearSans-Regular.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansM"; 
+    src: url(../Fonts/ClearSans-Medium.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansT"; 
+    src: url(../Fonts/ClearSans-Thin.ttf); 
+}
+
+@font-face{ 
+    font-family: "Nanum"; 
+    src: url(../Fonts/NanumPenScript-Regular.ttf); 
+}

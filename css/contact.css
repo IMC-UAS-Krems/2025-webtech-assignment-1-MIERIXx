@@ -1,0 +1,204 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #172236;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 2em 5vw;        
+    background-color: #172236;
+    background: transparent;
+    backdrop-filter: blur(7px); /*https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
+    box-shadow: 0 0.1em 20px #0f1624;
+    z-index: 100;  
+}
+
+#head1 {
+    font-size: 1.35em;
+    letter-spacing: -0.05em;
+    font-family: "ClearSansB";
+    font-weight: bold;
+    margin: 0;                 
+}
+
+#head2 {
+    display: flex;
+    gap: 3em;
+    font-size: 1em;
+    margin-right: 10em;
+    font-family: "ClearSansB";
+}
+
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+#text{
+    margin-top: 200px;
+}
+
+#text2{
+    margin-left: 5%;
+}
+
+#contact, #work, #address, #list{
+    max-width: 500px;
+}
+
+#map{
+    width: 1280px;
+    height: 720px;
+    border: 10px white solid;
+}
+
+#map2{
+    display: flex;
+    justify-content: center;
+}
+
+#contact{
+    font-family: "ClearSansT";
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(165, 165, 165);
+    margin-bottom: -35px;
+}
+
+#work{
+    font-family: "ClearSansB";
+    font-size: 48px;
+    color: #f8f8f8;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+#text2{
+    display: flex;
+    flex-direction: column;
+}
+
+#address{
+    font-family: "ClearSansT";
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(165, 165, 165);
+    margin-bottom: 10px;
+}
+
+#list{
+    color: #f8f8f8;
+    font-family: "ClearSansB";
+    font-size: 16px;
+    letter-spacing: -1;
+    padding-left: 0px;
+}
+
+#projecttext{
+    color: #f8f8f8;
+    font-family: "ClearSansB";
+    font-size: 32px;
+    letter-spacing: -1;
+    margin-left: 5%;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "ClearSansM";
+    margin: 0px 25% 0px 25%;
+    padding: 3% 0px 0px 0px;
+
+}
+
+label {
+    font-size: 16px;
+    color: #f8f8f8;
+}
+
+input, select, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f8f8f8;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    color: #f8f8f8;
+}
+
+select option{
+    color: #172236;
+    background-color: #f8f8f8;
+}
+
+::placeholder{
+    color: #f8f8f8;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+  font-family: "ClearSansM";
+}
+
+button{
+    background-color: transparent;
+    font-size: 20px;
+    color: #f8f8f8;
+    border: none;
+    font-family: "ClearSansB";
+    padding-bottom: 100px;
+}
+
+label :focus{
+    border-color: #f8f8f8;
+}
+
+footer{
+    background-color: #f8f8f8;
+    color: #172236;
+    font-family: "ClearSansB";
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding: 1em 0;
+    border-top: grey solid 5px;
+}
+
+@font-face{ 
+    font-family:"ClearSansB" ; 
+    src: url(../Fonts/ClearSans-Bold.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansR"; 
+    src: url(../Fonts/ClearSans-Regular.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansM"; 
+    src: url(../Fonts/ClearSans-Medium.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansT"; 
+    src: url(../Fonts/ClearSans-Thin.ttf); 
+}
+
+@font-face{ 
+    font-family: "Nanum"; 
+    src: url(../Fonts/NanumPenScript-Regular.ttf); 
+}

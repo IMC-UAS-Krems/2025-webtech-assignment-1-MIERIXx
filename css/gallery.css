@@ -1,0 +1,365 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #172236;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 2em 5vw;        
+    background-color: #172236;
+    background: transparent;
+    backdrop-filter: blur(7px); /*https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
+    box-shadow: 0 0.1em 20px #0f1624;
+    z-index: 100;  
+}
+
+#head1 {
+    font-size: 1.35em;
+    letter-spacing: -0.05em;
+    font-family: "ClearSansB";
+    font-weight: bold;
+    margin: 0;                 
+}
+
+#head2 {
+    display: flex;
+    gap: 3em;
+    font-size: 1em;
+    margin-right: 10em;
+    font-family: "ClearSansB";
+}
+
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+#photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16em;
+    margin-top: 23em;
+}
+
+#box1{
+    position: relative;
+    width: fit-content;
+}
+
+#box2{
+    position: relative;
+    width: fit-content;
+}
+
+#box3{
+    position: relative;
+    width: fit-content;
+}
+
+#box4{
+    position: relative;
+    width: fit-content;
+}
+
+#box5{
+    position: relative;
+    width: fit-content;
+}
+
+#box6{
+    position: relative;
+    width: fit-content;
+}
+
+#box7{
+    position: relative;
+    width: fit-content;
+}
+
+#box8{
+    position: relative;
+    width: fit-content;
+}
+
+#box9{
+    position: relative;
+    width: fit-content;
+}
+
+#box10{
+    position: relative;
+    width: fit-content;
+}
+
+#arrow1{
+    position: absolute;
+    width: 200px;
+    top: -210px;
+    left: 200px;
+    transform: rotate(-10deg);
+    z-index: 3;
+}
+
+#text1{
+    position: absolute;
+    top: -250px;
+    left: -60px;
+    font-size: 64px;
+    color: #f8f8f8;
+    font-family: "Nanum";
+    transform: rotate(-10deg);
+    z-index: 4;
+}
+
+#photo1{
+    width: 500Px;
+    height: auto;
+    border: 10px solid #f8f8f8;
+    transform: rotate(3deg);
+}
+
+#arrow2{
+    position: absolute;
+    width: 150px;
+    top: -170px;
+    left: 500px;
+    transform: rotate(-15deg);
+    z-index: 5;
+}
+
+#text2{
+    position: absolute;
+    top: -220px;
+    left: 100px;
+    font-size: 64px;
+    color: #f8f8f8;
+    font-family: "Nanum";
+    transform: rotate(-5deg);
+    z-index: 6;
+}
+
+#photo2{
+    width: 700Px;
+    height: auto;
+    border: 10px solid #f8f8f8;
+    transform: rotate(-2deg);
+}
+
+#arrow3{
+    position: absolute;
+    width: 150px;
+    top: -150px;
+    left: 150px;
+    transform: scaleX(-1) rotate(-20deg);
+    z-index: 7;
+}
+
+#photo3{
+    width: 500px;
+    height: auto;
+    border: 10px solid #f8f8f8;
+    transform: rotate(1deg);
+}
+
+#text3{
+    position: absolute;
+    width: 400px;
+    top: -240px;
+    left: 350px;
+    font-size: 64px;
+    color: #f8f8f8;
+    font-family: "Nanum";
+    transform: rotate(-5deg);
+    z-index: 6;
+}
+
+#photo4, #photo5, #photo6, #photo7, #photo8, #photo9, #photo10{
+    border: 10px solid #f8f8f8;
+}
+
+#arrow4, #arrow5, #arrow6, #arrow7, #arrow8, #arrow9, #arrow10{
+    position: absolute;
+    width: 150px;
+    z-index: 8;
+}
+
+#text4, #text5, #text6, #text7, #text8, #text8, #text9, #text10{
+    position: absolute;
+    width: 400px;
+    font-size: 64px;
+    color: #f8f8f8;
+    font-family: "Nanum";
+    z-index: 8;
+}
+
+#arrow4{
+    transform: rotate(-30deg);
+    margin-left: 200px;
+    margin-top: -150px;
+}
+
+#text4{
+    margin-left: -170px;
+    transform: rotate(5deg);
+    margin-top: -150px;
+}
+
+#photo4{
+    width: 500px;
+    transform: rotate(-3deg);
+}
+
+#photo5{
+    width: 800px;
+    transform: rotate(3deg);
+}
+
+#arrow5{
+    transform: scaleX(-1) rotate(-30deg);
+    margin-left: 200px;
+    margin-top: -150px;
+}
+
+#text5{
+    width: 600px;
+    margin-left: 410px;
+    margin-top: -180px;
+}
+
+#photo6{
+    width: 700px;
+    transform: rotate(-3deg);
+}
+
+#arrow6{
+    transform: rotate(-20deg);
+    margin-left: 400px;
+    margin-top: -160px;
+}
+
+#text6{
+    transform: rotate(2deg);
+    margin-left: 95px;
+    margin-top: -170px;
+}
+
+#photo7{
+    width: 800px;
+    transform: rotate(1deg);
+}
+
+#arrow7{
+    transform: scaleX(-1) rotate(-30deg);
+    margin-top: -150px;
+    margin-left: 300px;
+}
+
+#text7{
+    margin-left: 500px;
+    margin-top: -170px;
+}
+
+#photo8{
+    width: 900px;
+    transform: rotate(-1deg);
+}
+
+#arrow8{
+    transform: rotate(-30deg);
+    margin-left: 280px;
+    margin-top: -150px;
+}
+
+#text8{
+    margin-top: -150px;
+    margin-left: -20px;
+}
+
+#photo9, #photo10{
+    width: 450px;
+}
+
+#photo9{
+    transform: rotate(3deg);
+}
+
+#photo10{
+    transform: rotate(-1deg);
+}
+
+#arrow9{
+    transform: rotate(-30deg);
+    margin-left: 180px;
+    margin-top: -130px;
+}
+
+#text9{
+    margin-top: -170px;
+    margin-left: -100px;
+    transform: rotate(10deg);
+}
+
+#arrow10{
+    margin-top: -150px;
+    transform: scaleX(-1) rotate(-15deg);
+    margin-left: 35px;
+}
+
+#text10{
+    margin-top: -180px;
+    margin-left: 220px;
+    transform: rotate(-7deg);
+}
+
+#box11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    padding-bottom: 200px;
+}
+
+footer{
+    background-color: #f8f8f8;
+    color: #172236;
+    font-family: "ClearSansB";
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding: 1em 0;
+    border-top: grey solid 5px;
+}
+
+@font-face{ 
+    font-family:"ClearSansB" ; 
+    src: url(../Fonts/ClearSans-Bold.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansR"; 
+    src: url(../Fonts/ClearSans-Regular.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansM"; 
+    src: url(../Fonts/ClearSans-Medium.ttf); 
+}
+
+@font-face{ 
+    font-family: "ClearSansT"; 
+    src: url(../Fonts/ClearSans-Thin.ttf); 
+}
+
+@font-face{ 
+    font-family: "Nanum"; 
+    src: url(../Fonts/NanumPenScript-Regular.ttf); 
+}
