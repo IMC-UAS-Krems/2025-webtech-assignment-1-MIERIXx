@@ -113,9 +113,15 @@ main{
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-bottom: 0px;
     color: rgb(207, 206, 206);
     font-size: 24px;
     font-family: "ClearSansT";
+}
+
+#block4{
+    padding-top: 0px;
+    margin-top: -50px;
 }
 
 #title3{
